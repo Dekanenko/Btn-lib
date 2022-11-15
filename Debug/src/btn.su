@@ -1,3 +1,5 @@
-btn.c:7:6:GPIOA_Config	16	static
-btn.c:16:6:EXTI0_IRQHandler	8	static
-btn.c:31:6:EXTI_Config	24	static
+btn.c:9:6:isPressed	4	static
+btn.c:13:6:isReleased	4	static
+btn.c:17:6:GPIOA_Config	16	static
+btn.c:26:6:EXTI0_IRQHandler	8	static
+btn.c:41:6:EXTI_Config	24	static

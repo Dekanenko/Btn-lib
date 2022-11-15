@@ -1,8 +1,18 @@
 #include "stm32f4xx.h"
+#include "stm32f4xx_gpio.h"
+#include "stm32f4xx_exti.h"
 #include "stdbool.h"
 
 static bool PRESSED = false;
 static bool RELEASED = true;
+
+bool isPressed(){
+	return PRESSED;
+}
+
+bool isReleased(){
+	return RELEASED;
+}
 
 void GPIOA_Config(void) {
 	GPIO_InitTypeDef gpioConf;
@@ -52,4 +62,3 @@ void EXTI_Config(void) {
     NVIC_InitStruct.NVIC_IRQChannelSubPriority = 0x00;
     NVIC_Init(&NVIC_InitStruct);
 }
-

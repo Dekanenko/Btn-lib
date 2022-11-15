@@ -1,7 +1,8 @@
-main.c:18:5:main	16	static
-main.c:45:6:GPIOD_Config	16	static
-main.c:57:6:StraightDirection	8	static
-main.c:86:6:ReversedDirection	8	static
-main.c:115:6:Reset_ALL_GPIOD	8	static
-main.c:119:6:TIM2_IRQHandler	8	static
-main.c:130:6:INTTIM_Config	32	static
+main.c:19:5:main	16	static
+main.c:47:6:GPIOD_Config	16	static
+main.c:59:6:StraightDirection	8	static
+main.c:88:6:ReversedDirection	8	static
+main.c:117:6:Reset_ALL_GPIOD	8	static
+main.c:121:6:TIM2_IRQHandler	8	static
+main.c:132:6:INTTIM_Config	32	static
+main.c:148:6:NVIC_Config	16	static
